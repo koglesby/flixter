@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i');
 
+
+
 .navbar {
   border-radius: 0;
   font-family: "Cabin", sans-serif;
@@ -15,4 +17,40 @@
   font-family: "Cabin", sans-serif;
   font-weight: 700;
   color: white;
+}
+
+.hero {
+  background: url(hero.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin:0;
+}
+
+.frosty {
+  background: rgba(0,0,0,.45);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.btn {
+  border-radius:0;
 }
