@@ -31,7 +31,7 @@
             <ul class="nav navbar-nav navbar-right">
               <% if user_signed_in? %>
                 <li>
-                <%= link_to user_path(current_user) do %>
+                <%= link_to "#" do %>
                 <i class="glyphicon glyphicon-user"></i>
                 My Profile
                 <% end %>
@@ -64,7 +64,7 @@
     <div class="container">
       <b>Footer Here</b>
       <br />
-      <%= link_to 'Link', '#' %>
+      <%= link_to 'Teach a Course', new_instructor_course_path %>
     </div>
   </div>
 </body>
