@@ -48,6 +48,8 @@ gem 'mini_magick'
 gem 'carrierwave-aws'
 
 gem 'stripe'
+
+gem 'ranked-model'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
