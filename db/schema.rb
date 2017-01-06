@@ -59,6 +59,7 @@ ActiveRecord::Schema.define(version: 20161226231332) do
     t.integer  "row_order"
   end
 
+  add_index "sections", ["course_id"], name: "index_sections_on_course_id", using: :btree
   add_index "sections", ["row_order"], name: "index_sections_on_row_order", using: :btree
 
   create_table "users", force: true do |t|
